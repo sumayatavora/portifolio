@@ -1,0 +1,36 @@
+body {
+   background-image: url('img/01_computador_mulher.jpg'); 
+   background-size: auto 100vh;
+   font-family: Arial, Helvetica, sans-serif;
+   height: 100vh;
+}
+.menu{
+  background-color: white;
+}
+}
+.menu li {
+    list-style: none;
+}
+.menu  ul{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    color: teal;
+}
+a{
+    color: teal;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+.site-title {
+    color: teal;
+    text-align: center;
+
+}
+.site-subtitle{
+    color: rgb(194, 113, 8);
+    text-align: center;
+    font-style: italic;
+}
