@@ -1,21 +1,144 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sumaya Távora</title>
     <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap&family=Cinzel&display=swap&family=Dosis:wght@200&display=swap&family=Roboto:ital@1&display=swap&family=DM+Mono:wght@500&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/8fb0c43f8c.js" crossorigin="anonymous"></script>
+  
 </head>
 <body>
     <header>
-        <nav class="menu">
-            <ul>
-                <li href="#">Sobre</li>
-                <li href="#">Portifolio</li>
-                <li href="#">Contato</li>
+        <div class="top"></div>
+           <nav class="menu">
+            <ul class="container">
+                <li><a href="#top">Home</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#portfolio">Projetos</a></li>
+                <li><a href="#contato">Contato</a></li>
             </ul>
         </nav>
-        <h1 class="site-title">Sumaya Távora</h1>
-        <h2 class="site-subtitle"> Frontend developer</h2>
+        
+        <div class="titulo">
+        <h1 class="site-title">SUMAYA TÁVORA</h1>
+        <h2 class="site-subtitle">Web Developer</h2>
+        </div>
     </header>  
+
+    <section class="img-1">
+        <div class="chamada" id="sobre">
+            <h4>Sobre</h4>
+        </div>
+    </section>
+    
+    <section class="sobre container">
+        <figure class="avatar">
+            <img src="./img/fotoperfil.jpg" alt="Sumaya Távora">
+        </figure>
+        <p>Tenho uma vontade de voltar para o mercado de tecnologia, na área de front-end e tenho o sonho de participar de projetos de cidades inteligentes e me tornar cientista de dados.</p>
+        <p>Eu sempre amei linguagem de programação, comecei autodidata, estudando HTML na internet, quando não havia muitos cursos gratuitos.</p> 
+        <p>Tive uma experiência de trabalhar em uma empresa de web em 2007, com manutenção de sites em HTML, CSS e JavaScripts. Fazia também atualização das noticias no banco de dados SQL. 
+        <p>Sempre tive vontade de agregar meu sonho de me tornar Arquiteta com a programação. E a oportunidade veio nos últimos semestres da graduação, estagiando na área de projetos, surgiu uma problemática no escritório, ao realizar a pesquisa de tombamento de um imóvel, nos deparamos com todas as informações perdidas e soltas em diversos sites e órgão em três esferas, nacional, estadual e municipal. Isso fez brotar meu desejo novamente, meu trabalho de conclusão de curso, organizou todas as informações para o Arquiteto reduzir o tempo de pesquisa no escritório. Na área de imóveis tombados e áreas de preservações do plano diretor de São Paulo, o tema foi: SP Patrimônio - Mapeamento colaborativo dos bens imóveis da cidade de São Paulo, uma pesquisa de um ano, com a realização de um protótipo em Wordpress e testado como plataforma educacional na própria faculdade. Finalizado em Junho/2015. Esse trabalho foi finalista no prêmio Brasil Criativo 2016 na categoria patrimônio material, mencionado no ArchDaily Brasil em 2017, maior site de arquitetura no mundo, aceito no Congresso Patrima realizado em Portugal na cidade de Lisboa 2016 e citado pelo pesquisador Urbano Lemos Jr no artigo : O Ciberespaço como instrumento de Preservação de Patrimônios na Cidade de São Paulo, apresentado no  Congresso da ABCiber – Associação Brasileira de Pesquisadores em Cibercultura 2018. Desde então venho buscando qualificação com cursos da área de tecnologia.</p>
+        <p>Atualmente sou estudante de Análise e denselvolvimento de sistemas na Universidade Paulista - UNIP.</p>
+        <p>Gosto muito de ler, ir a exposições de arte, visitar museus e ir a parques só para ter contato com a natureza. Nas horas livres gosto de fazer crochê e ficar com minha família.</p>
+        <p>Este site foi construído durante a <a href="https://www.alura.com.br/">Imersão CSS da Alura</a></p>
+    </section>
+    <section class="img-2" id="portfolio">
+        <div class="chamada">
+            <h4>Projetos</h4>
+        </div>
+    </section>
+    <section class="portfolio container">
+       <div class="grid">
+      <div class="flip-card">
+          <div class="card">
+          <figure>
+			<img class="img-portfolio" src="./img/sppatrimonio.jpg"   alt="sppatrimonio">
+           </figure> 
+           <div class="card-back">
+                 <h3>SP Patrimônio</h3>
+            </div>
+           </div>		
+      </div>
+            
+      <div class="flip-card">
+          <div class="card">
+              <figure>
+			<img class="img-portfolio" src="./img/tudoepagode.jpg"  alt="Tudo é pagode">
+			
+        </figure>
+        <div class="card-back">
+            <h3>Tudo é Pagode</h3>
+        </div>
+          </div>
+      </div>
+        
+      <div class="flip-card">
+        <div class="card">
+            <figure>
+                <img class="img-portfolio" src="./img/vivergranjaviana.jpg"  alt="Viver Granja Viana">
+          </figure>
+      <div class="card-back">
+          <h3>Viver na Granja Vianna</h3>
+      </div>
+        </div>
+    </div>
+
+    <div class="flip-card">
+        <div class="card">
+            <figure>
+                <img class="img-portfolio" src="./img/santaarq.jpg"  alt="Santa Arquitetura">
+          </figure>
+      <div class="card-back">
+        <h3>Santa Arquitetura</h3>
+      </div>
+        </div>
+    </div>
+    
+    <div class="flip-card">
+        <div class="card">
+            <figure>
+            	<img class="img-portfolio" src="./img/sumayaarq.jpg"  alt="Sumaya Távora Arquitetura">
+          </figure>
+      <div class="card-back">
+        <h3>Távora Arquitetura</h3>
+      </div>
+        </div>
+    </div>
+    <div class="flip-card">
+        <div class="card">
+            <figure>
+            	<img class="img-portfolio" src="./img/bixigaexiste.jpg"  alt="Bixiga Existe">
+          </figure>
+      <div class="card-back">
+        <h3>Bixiga Existe</h3>
+      </div>
+        </div>
+    </div>
+
+    </section>
+    <section class="img-3">
+        <div class="chamada" id="contato">
+            <h4>Contato</h4>
+        </div>
+    </section>
+    <section class="contato container" >
+            <div class="grid icons">
+            <a target="_blank" href="https://github.com/sumayatavora">
+                        <i class="fab fa-github"></i>
+           </a>
+            <a target="_blank" href="https://www.instagram.com/sumayatavora">
+                         <i class="fab fa-instagram"></i>
+                </a>
+                <a target="_blank" href="https://www.linkedin.com/in/sumayatavora/">
+                         <i class="fab fa-linkedin"></i>
+                 </a>
+                <a target="_blank" href="mailto:mayatavora@yahoo.com.br">
+                        <i class="fas fa-envelope"></i>   
+                </a> 
+        </div>
+    </section>
 </body>
 </html>
