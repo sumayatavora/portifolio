@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="css/style.css">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap&family=Cinzel&display=swap&family=Dosis:wght@200&display=swap&family=Roboto:ital@1&display=swap&family=DM+Mono:wght@500&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/8fb0c43f8c.js" crossorigin="anonymous"></script>
-  
+    
 </head>
 <body>
     <header>
@@ -35,7 +35,7 @@
     
     <section class="sobre container">
         <figure class="avatar">
-            <img src="./img/fotoperfil.jpg" alt="Sumaya Távora">
+            <img src="./img/fotoperfil.jpg" class="avatar" alt="Sumaya Távora">
         </figure>
         <p>Tenho uma vontade de voltar para o mercado de tecnologia, na área de front-end e tenho o sonho de participar de projetos de cidades inteligentes e me tornar cientista de dados.</p>
         <p>Eu sempre amei linguagem de programação, comecei autodidata, estudando HTML na internet, quando não havia muitos cursos gratuitos.</p> 
@@ -46,8 +46,8 @@
         <p>Este site foi construído durante a <a href="https://www.alura.com.br/imersao-css" target="
             _blank">Imersão CSS da Alura</a></p>
     </section>
-    <section class="img-2" id="portfolio">
-        <div class="chamada">
+    <section class="img-2">
+        <div class="chamada" id="sobre">
             <h4>Projetos</h4>
         </div>
     </section>
@@ -55,8 +55,9 @@
        <div class="grid">
       <div class="flip-card">
           <div class="card">
+              
           <figure>
-			<img class="img-portfolio" src="./img/sppatrimonio.jpg"   alt="sppatrimonio">
+			<img class="img-portfolio" src="./img/sppatrimonio.jpg" alt="sppatrimonio">
            </figure> 
            <div class="card-back">
                  <h3>SP Patrimônio</h3>
@@ -141,5 +142,13 @@
                 </a> 
         </div>
     </section>
-</body>
+    <script>
+    function onClick(element) {
+        document.getElementById("img01").src = element.src;
+        document.getElementById("modal01").style.display = "block";
+        var captionText = document.getElementById("caption");
+        captionText.innerHTML = element.alt;
+      }
+      </script>
+    </body>
 </html>
